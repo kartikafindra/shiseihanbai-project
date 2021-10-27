@@ -1,11 +1,12 @@
 const searchData = (data, search, setNewData) => {
-	let filteredData = [];
+
+	let filteredData = []; //[{}, {}, {}, {}]
 	data.forEach((datas) => {
 		if (search.cat === 'ALL') {
 			if (search.name !== null) {
 				if (
 					datas.name.indexOf(search.name) > -1 ||
-					datas.productId === Number(search.name)
+					String(datas.productId).indexOf(search.name) > -1
 				) {
 					if (
 						datas.price >= search.priceL &&
@@ -20,11 +21,13 @@ const searchData = (data, search, setNewData) => {
 				}
 			}
 		}
+
+
 		if (search.cat === datas.category) {
 			if (search.name !== null) {
 				if (
 					datas.name.indexOf(search.name) > -1 ||
-					datas.productId === Number(search.name)
+					String(datas.productId).indexOf(search.name) > -1
 				) {
 					if (
 						datas.price >= search.priceL &&
@@ -41,12 +44,13 @@ const searchData = (data, search, setNewData) => {
 		}
 	});
 
-	
-	if (filteredData.length === 0) {
-		setNewData(filteredData);
-	} else {
-		setNewData(filteredData);
-	}
+  setNewData(filteredData)
+  
+	// if (filteredData.length === 0) {
+	// 	setNewData(filteredData);
+	// } else {
+	// 	setNewData(filteredData);
+	// }
 };
 
 export default searchData;
