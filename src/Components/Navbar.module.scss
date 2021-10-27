@@ -1,0 +1,50 @@
+.inputField{
+  border: 1px solid grey;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: .3rem;
+  @media only screen and (min-width: 767px) {
+    max-width: 170px;
+ }
+}
+
+.container{
+  max-width: 1100px;
+  width: 95%;
+}
+
+.cards{
+  width: 100%;
+  border: 1px solid rgb(209, 209, 209);
+  max-width: 400px;
+  padding: .2rem;
+  height:60vh;
+  cursor: pointer;
+
+}
+
+.printCheck{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+.iconYen{
+  height: 100%;
+  border-bottom-left-radius: .3rem;
+  border-top-left-radius: .3rem;
+  padding: 9px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.borderField{
+  border-radius: inherit;
+  border-bottom-right-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
