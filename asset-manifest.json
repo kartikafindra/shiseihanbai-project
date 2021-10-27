@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shiseihanbai-project/static/css/main.e2a941b1.chunk.css",
+    "main.js": "/shiseihanbai-project/static/js/main.ecb264f1.chunk.js",
+    "main.js.map": "/shiseihanbai-project/static/js/main.ecb264f1.chunk.js.map",
+    "runtime-main.js": "/shiseihanbai-project/static/js/runtime-main.723d6beb.js",
+    "runtime-main.js.map": "/shiseihanbai-project/static/js/runtime-main.723d6beb.js.map",
+    "static/js/2.61470de3.chunk.js": "/shiseihanbai-project/static/js/2.61470de3.chunk.js",
+    "static/js/2.61470de3.chunk.js.map": "/shiseihanbai-project/static/js/2.61470de3.chunk.js.map",
+    "index.html": "/shiseihanbai-project/index.html",
+    "static/css/main.e2a941b1.chunk.css.map": "/shiseihanbai-project/static/css/main.e2a941b1.chunk.css.map",
+    "static/js/2.61470de3.chunk.js.LICENSE.txt": "/shiseihanbai-project/static/js/2.61470de3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.723d6beb.js",
+    "static/js/2.61470de3.chunk.js",
+    "static/css/main.e2a941b1.chunk.css",
+    "static/js/main.ecb264f1.chunk.js"
+  ]
+}
