@@ -26,16 +26,6 @@
   
 }*/
 
-.cards{
-  width: 100%;
-  border: 1px solid rgb(209, 209, 209);
-  max-width: 400px;
-  padding: .2rem;
-  height:70vh;
-  cursor: pointer;
-
-}
-
 .printCheck {
   width: 25px;
   height: 25px;
