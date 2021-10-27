@@ -4,8 +4,9 @@
   padding: 10px;
   font-size: 15px;
   text-align: left;
-  border-radius: 0.3rem;
+  border-radius: .3rem;
 }
+
 @media only screen and (min-width: 767px) {
   .inputField {
     max-width: 165px;
@@ -21,10 +22,8 @@
   width: 100%;
   border: 1px solid #d1d1d1;
   max-width: 400px;
-  padding: 0.2rem;
+  padding: .2rem;
   cursor: pointer;
-  
-  
 }
 
 .printCheck {
@@ -37,8 +36,8 @@
 
 .iconYen {
   height: 100%;
-  border-bottom-left-radius: 0.3rem;
-  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: .3rem;
+  border-top-left-radius: .3rem;
   padding: 9px;
   background-color: white;
   border: 1px solid grey;
@@ -46,6 +45,7 @@
 
 .borderField {
   border-radius: inherit;
-  border-bottom-right-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
-}/*# sourceMappingURL=Navbar.module.css.map */
+  border-bottom-right-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
