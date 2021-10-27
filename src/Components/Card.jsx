@@ -45,10 +45,10 @@ const Card = ({ data }) => {
 						<h1>{data.name}</h1>
 					</div>
 					<div>
-						<h1 className="text-sm">Price_ {data.price}</h1>
-						<h1 className="text-sm">CT_ {data.ct}</h1>
-						<h1 className="text-sm">Size_ {data.size}</h1>
-						<h1 className="text-sm">
+						<h1 className="text-md">Price_ {data.price}</h1>
+						<h1 className="text-md">CT_ {data.ct}</h1>
+						<h1 className="text-md">Size_ {data.size}</h1>
+						<h1 className="text-md">
 							Material_ {data.material.replace('＜ｃｈ＞', '')}
 						</h1>
 					</div>
