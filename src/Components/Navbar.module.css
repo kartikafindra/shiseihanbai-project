@@ -17,14 +17,14 @@
   width: 95%;
 }
 
-/*.cards {
+.cards {
   width: 100%;
   border: 1px solid #d1d1d1;
   max-width: 400px;
   padding: 0.2rem;
   cursor: pointer;
   
-}*/
+}
 
 .printCheck {
   width: 25px;
